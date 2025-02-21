@@ -285,3 +285,19 @@ body {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent);
     z-index: -1;
 }
+
+.background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
