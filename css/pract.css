@@ -236,7 +236,7 @@ body {
 }
 
 .bloor-container {
-    background-image: url("/png/sk-edit-scaled.jpg");
+    background-image: url("png/sk-edit-scaled.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -246,7 +246,7 @@ body {
 }
 
 .photo-container {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 10%),url(/png/Slipknot_25_web-scaled.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 10%),url(png/Slipknot_25_web-scaled.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% auto; /* Растягивает по ширине, высота сохраняется */
