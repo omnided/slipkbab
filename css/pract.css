@@ -246,13 +246,14 @@ body {
 }
 
 .photo-container {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 10%),url(./png/web-scaled.png);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 10%),
+                      url('https://slipkbab.github.io/slipkbab/png/web-scaled.png');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; /* Растягивает по ширине, высота сохраняется */
+    background-size: cover;
     width: 100%;
     height: 1700px;
-    position:relative;
+    position: relative;
 }
 
 .bloor-container::before {
