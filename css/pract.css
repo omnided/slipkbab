@@ -236,7 +236,6 @@ body {
 }
 
 .bloor-container {
-    background-image: url("./png/sk.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -246,8 +245,6 @@ body {
 }
 
 .photo-container {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 10%),
-                      url('https://slipkbab.github.io/slipkbab/png/web-scaled.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
