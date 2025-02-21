@@ -235,16 +235,6 @@ body {
     background-color:#000;
 }
 
-.bloor-container {
-    background-image: url("./png/logo.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    position: relative;
-}
-
 .photo-container {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 10%),url("./png/Slipknot_25_web-scaled.jpg");
     background-position: center;
@@ -254,8 +244,6 @@ body {
     height: 1700px;
     position:relative;
 }
-
-
 
 .photo-container::before {
     content: "";
@@ -277,4 +265,35 @@ body {
     height: 100%;
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), transparent);
     z-index: -1;
+}
+
+.bloor-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+}
+
+.bloor-container {
+    background-image: url("/png/logo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.photo-container {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 10%),url("/png/Slipknot_25_web-scaled.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto; /* Растягивает по ширине, высота сохраняется */
+    width: 100%;
+    height: 1700px;
+    position:relative;
 }
